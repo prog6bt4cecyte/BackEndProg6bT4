@@ -1,11 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.TipoClaseRoutes = void 0;
-+;
-const tipoClase_controller_1 = require("../controllers/tipoClase.controller");
+const tipoClase_controllers_1 = require("../controllers/tipoClase.controllers");
 class TipoClaseRoutes {
     constructor() {
-        this.tipoClaseController = new tipoClase_controller_1.TipoClaseController();
+        this.tipoClaseController = new tipoClase_controllers_1.TipoClaseController();
     }
     routes(app) {
         app.route('/tipoClase')
