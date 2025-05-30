@@ -1,4 +1,5 @@
-+import { TipoClaseController } from "../controllers/tipoClase.controller";
+import { TipoClaseController } from "../controllers/tipoClase.controllers";
+
 
 export class TipoClaseRoutes {
     private tipoClaseController: TipoClaseController = new TipoClaseController();
